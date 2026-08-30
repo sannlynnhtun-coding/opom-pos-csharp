@@ -17,7 +17,7 @@ global using System.Text;
 global using System.Globalization;
 global using System.Security.Claims;
 global using Microsoft.AspNetCore.Authorization;
-global using Pos.BackendApi.Features.Authentication.Login;
+global using Pos.BackendApi.Features.Login;
 global using Pos.BackendApi.Features.Customer;
 global using Pos.BackendApi.Features.Product;
 global using Pos.BackendApi.Features.ProductCategory;

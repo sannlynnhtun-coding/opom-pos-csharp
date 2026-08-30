@@ -1,4 +1,4 @@
-namespace Pos.BackendApi.Features.Authentication.Login;
+namespace Pos.BackendApi.Features.Login;
 
 public class LoginService
 {

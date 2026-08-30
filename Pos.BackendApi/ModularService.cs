@@ -4,6 +4,7 @@ using Pos.BackendApi.Features.Generate;
 using Pos.BackendApi.Features.State;
 using Pos.BackendApi.Features.Tax;
 using Pos.BackendApi.Features.SaleDraft;
+using Pos.BackendApi.Features.Login;
 
 namespace Pos.BackendApi;
 
