@@ -1,0 +1,92 @@
+{
+  "version": 1,
+  "mode": "legacy",
+  "rules": [],
+  "budgets": [],
+  "usage": [],
+  "approvals": [],
+  "receipts": [
+    {
+      "payload": {
+        "receiptId": "sha256:192fd1b6f911772c03a260ab2aa7213da578cbfcede960fb4744d28d451b0e68",
+        "previousReceiptHash": null,
+        "sequence": 0,
+        "issuedAt": 1788119193822,
+        "request": {
+          "identity": {
+            "id": "legacy-cli",
+            "type": "legacy"
+          },
+          "action": {
+            "type": "mcp.tool.call",
+            "resource": "github_pr_manage",
+            "tool": "github_pr_manage",
+            "server": "ruflo",
+            "network": true,
+            "destructive": false
+          },
+          "context": {
+            "metadata": {
+              "inputDigest": "sha256:369c2fb7a77ba55472ef87e29ba079e2ddeaaabf804c96fb59c98872a2cad8f0"
+            },
+            "now": 1788119193822
+          },
+          "requestId": "77b4a908-0017-4d57-9ab0-54f1015c1a96"
+        },
+        "decision": {
+          "requestId": "77b4a908-0017-4d57-9ab0-54f1015c1a96",
+          "outcome": "allowed",
+          "enforcedOutcome": "allowed",
+          "mode": "legacy",
+          "reason": "legacy-default-allow",
+          "matchedRules": [],
+          "obligations": []
+        },
+        "policyHash": "sha256:00b63b2f746eb8b9095bbd5e1dbae4ddd74fd92a6740b72f59f4069fbfda4737"
+      },
+      "hash": "sha256:3da4a13ef8f203ee700a86407cfea34da4875bde7fb41703bc0a2229d5282969"
+    },
+    {
+      "payload": {
+        "receiptId": "sha256:7dd1a5ddf9727bced71a53b1a6feef613cd3ef3a590e24e99cc2bd205ee06370",
+        "previousReceiptHash": "sha256:3da4a13ef8f203ee700a86407cfea34da4875bde7fb41703bc0a2229d5282969",
+        "sequence": 1,
+        "issuedAt": 1788119200402,
+        "request": {
+          "identity": {
+            "id": "legacy-cli",
+            "type": "legacy"
+          },
+          "action": {
+            "type": "mcp.tool.call",
+            "resource": "github_pr_manage",
+            "tool": "github_pr_manage",
+            "server": "ruflo",
+            "network": true,
+            "destructive": false
+          },
+          "context": {
+            "metadata": {
+              "inputDigest": "sha256:fdd13831362d886e25b4d1ad286ec7e165f8618cb0205849dd567b4d09b1031a"
+            },
+            "now": 1788119200402
+          },
+          "requestId": "0214dbce-b2c6-46d7-9473-18751bfbc078"
+        },
+        "decision": {
+          "requestId": "0214dbce-b2c6-46d7-9473-18751bfbc078",
+          "outcome": "allowed",
+          "enforcedOutcome": "allowed",
+          "mode": "legacy",
+          "reason": "legacy-default-allow",
+          "matchedRules": [],
+          "obligations": []
+        },
+        "policyHash": "sha256:00b63b2f746eb8b9095bbd5e1dbae4ddd74fd92a6740b72f59f4069fbfda4737"
+      },
+      "hash": "sha256:5b0a35a335fa1c4db151b6ecd50459eabb1d11a8a92b1467508fd342306b211c"
+    }
+  ],
+  "migratedAt": 1788119193822,
+  "migratedFrom": "pre-ADR-324; capabilities=none-detected"
+}
